@@ -41,7 +41,24 @@
 
     <header-file src="src/ios/SocialSharing.h"/>
     <source-file src="src/ios/SocialSharing.m"/>
-
+    
+    <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+      <array>
+        <string>fb</string>
+        <string>twitter</string>
+        <string>whatsapp</string>
+        <string>twitter</string>
+        <string>wechat</string>
+        <string>line</string>
+        <string>instagram</string>
+        <string>kakaotalk</string>
+        <string>mqq</string>
+        <string>vk</string>
+        <string>mqq</string>
+        <string>nextdoor</string>
+      </array>
+    </config-file>
+        
     <framework src="Social.framework" weak="true" />
     <framework src="MessageUI.framework" weak="true" />
   </platform>
