@@ -296,7 +296,7 @@ public class SocialSharing extends CordovaPlugin {
     if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
       return;
     }
-    final Toast toast = Toast.makeText(webView.getContext(), label, Toast.LENGTH_LONG);
+    final Toast toast = Toast.makeText(webView.getContext(), "[PASTE IT] - " + label, Toast.LENGTH_LONG);
     toast.setGravity(Gravity.CENTER_VERTICAL | Gravity.CENTER_HORIZONTAL, 0, 0);
     toast.show();
   }
