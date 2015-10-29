@@ -160,7 +160,7 @@
         UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
         [pasteboard setValue:message forPasteboardType:@"public.text"];
         NSString *hint = [command.arguments objectAtIndex:4];
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:hint delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"PASTE IT" message:hint delegate:nil cancelButtonTitle:nil otherButtonTitles:nil];
         [alert show];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 2800 * NSEC_PER_MSEC), dispatch_get_main_queue(), ^{
           [alert dismissWithClickedButtonIndex:-1 animated:YES];
