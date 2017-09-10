@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
+    "url": "git+https://github.com/vkeepe/SocialSharing-PhoneGap-Plugin.git"
   },
   "keywords": [
     "Social",
@@ -40,7 +40,7 @@
   "author": "Eddy Verbruggen - @EddyVerbruggen",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin/issues"
+    "url": "https://github.com/vkeepe/SocialSharing-PhoneGap-Plugin/issues"
   },
-  "homepage": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin#readme"
+  "homepage": "https://github.com/vkeepe/SocialSharing-PhoneGap-Plugin#readme"
 }
